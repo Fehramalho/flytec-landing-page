@@ -41,7 +41,7 @@ img {
     width: 56px;
     height: 56px;
     float: left;
-    background: url(../src/img/img/logo-mobile.png) center center/56px no-repeat;
+    background: url(../src/img/logo-mobile.png) center center/56px no-repeat;
     font-size: 0;
 }
 
@@ -104,7 +104,7 @@ img {
     float: left;
     text-align: center;
     padding: 3% 4%;
-    background: url(../src/img/img/bg.jpg) no-repeat fixed;
+    background: url(../src/img/bg.jpg) no-repeat fixed;
 
 }
 
@@ -271,17 +271,15 @@ img {
 /* MOBILE FIRST*/
 @media screen and (max-width:475px) {
     .servico img {
-        width: 330px;
-        height: auto;
-        border-radius: 7px 7px 0 0;
+        width:100%;;
     }
-    
+
 }
 @media screen and (min-width: 480px) {
     .logo {
         width: 214px;
         float: left;
-        background: url(../src/img/img/logo.png) center center/214px no-repeat;
+        background: url(../src/img/logo.png) center center/214px no-repeat;
     }
 
 }
