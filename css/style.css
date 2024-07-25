@@ -269,7 +269,7 @@ img {
 }
 
 /* MOBILE FIRST*/
-@media screen and (max-width:380px) {
+@media screen and (max-width:475px) {
     .servico img {
         width: 330px;
         height: auto;
